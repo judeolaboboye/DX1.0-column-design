@@ -1,39 +1,79 @@
+/* ==== Major fixes starts here ==== */
+
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+body{
+    font-family: 'Inter', sans-serif;
+}
+/* ==== Major fixes ends here ==== */
+
+/* ==== first section starts here==== */
 
 
-.firstdiv{
-    height: 460px;
-    /* border: 3px solid var(--black-color); */
-
+.firstsection{
+    height: 87vh;
     display: flex;
     flex-direction: row;
 }
 
-.first-leftdiv{
+.firstsection-leftdiv{
+    padding-top: 20px;
+    padding-left: 40px;
     width: 50%;
     height: 460px;
     background:  var(--gray-color);
+    padding-right: 40px;
+
 }
 
-.first-rightdiv{
-    /* using color as background */
-    /* background: var(--main-color); */
-    /* background: linear-gradient( right, #f46b45, #eea849); */
+.firstsection-rightdiv{
 
-    /* using image as background */
-    /* background: url("./images/image1.jpg"); */
-    background: linear-gradient(to right, rgba(244, 107, 69, 0.2), rgba(238, 168, 73, 0.2)), url("./images/image1.jpg");
-    /* using background image with linear */
+    background: var(--linear-gradient), url("./images/image1.jpg");
     height: 460px;
     width: 50%;
     background-size: cover;
     background-position: bottom left;
 
-    /* background image properties */
-    /*background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: cover; */
 }
+
+.link-holder{
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--white-color);
+    padding: 20px 0;
+}
+.logo{
+    margin-bottom: 30px;
+}
+
+span{
+    color: tomato;
+}
+
+.line{
+    background: var(--main-color);
+    padding: 8px;
+    width: 224px;
+}
+.headingwriteup{
+    margin: 30px 0;
+    /* border: 3px solid black;  */
+}
+/* ==== first section ends here==== */
+
+
+/* ==== second section starts here==== */
+/* ==== second section ends here==== */
+
+
+/* ==== Third section starts here==== */
+/* ==== Third section ends here==== */
+
+
+/* ==== footer section starts here==== */
+/* ==== footer section ends here==== */
