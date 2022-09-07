@@ -20,7 +20,7 @@ body{
 
 
 .firstsection{
-    height: 500px;
+    height: 87vh;
     display: flex;
     flex-direction: row;
 }
@@ -117,6 +117,7 @@ span{
     padding: 30px 0;
     justify-content: center;
     flex-wrap: wrap;
+    background: var(--gray-color);
 }
 
 .thirdsection-leftdiv{
