@@ -141,4 +141,25 @@ padding: 40px 20px;
 
 
 /* ==== footer section starts here==== */
+
+footer {
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.footericoncontainer{
+    text-align: center;
+}
+.iconholder{
+    font-size: 20px;
+    color: var(--white-color);
+    margin: 0 5px;
+}
+.footericons{
+
+    margin: 0 5px;
+}
 /* ==== footer section ends here==== */
